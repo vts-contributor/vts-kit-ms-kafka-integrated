@@ -1,6 +1,6 @@
 Kafka Integrated Library for Spring Boot
 -------
-This library provides utilities that make it easy to integrate Kafka Server a spring boot project
+This library provides utilities that make it easy to integrate Kafka Server into spring boot project
 
 Feature List:
 * [Feature](#feature)
@@ -18,8 +18,9 @@ Quick start
 
 * Then, add the following properties to your `application-*.yml` file.
 ```yaml
-example:
-  key: value
+vtskit:
+  kafka:
+    example: value
 ```
 
 Usage

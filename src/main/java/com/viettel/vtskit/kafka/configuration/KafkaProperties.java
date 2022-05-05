@@ -4,14 +4,14 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 import javax.annotation.PostConstruct;
 
-@ConfigurationProperties(prefix = "kafka")
+@ConfigurationProperties(prefix = "vtskit.kafka")
 public class KafkaProperties {
 
     /**
      * Validate properties at here if necessary
      */
     private void validateProperties(){
-        System.out.println("Example Code");
+
     }
 
     @PostConstruct
