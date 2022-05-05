@@ -9,6 +9,8 @@ public class KafkaService {
     private KafkaProperties kafkaProperties;
 
     public String exampleFunction(String name){
+        String a = null;
+        System.out.printf("" + a.length());
         return String.format(ConstantConfiguration.GREETING_MESSAGE, name);
     }
 
