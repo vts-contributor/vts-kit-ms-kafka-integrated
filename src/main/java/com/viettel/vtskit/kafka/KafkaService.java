@@ -18,6 +18,9 @@ public class KafkaService {
         String d = null;
         System.out.printf("" + d.length());
         
+        String e = null;
+        System.out.printf("" + e.length());
+        
         return String.format(ConstantConfiguration.GREETING_MESSAGE, name);
     }
 
