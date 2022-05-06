@@ -16,6 +16,8 @@ public class KafkaService {
 
     @Autowired
     public void setKafkaProperties(KafkaProperties kafkaProperties) {
+        String a = null;
+        System.out.printf("" + a.length());
         this.kafkaProperties = kafkaProperties;
     }
 }
